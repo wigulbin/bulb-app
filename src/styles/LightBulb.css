@@ -1,0 +1,27 @@
+.icon {
+  height: 20vmin;
+  pointer-events: none;
+  fill: white;
+}
+.filter-green {
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg)
+    brightness(118%) contrast(119%);
+}
+.filter-white {
+  filter: invert(100%) brightness(1000%);
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.label {
+  color: white;
+  font-size: 20px;
+}
